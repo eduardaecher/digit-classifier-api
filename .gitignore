@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Cache do MNIST (~440 MB), baixado automaticamente pelo notebook
+data/mnist_X.npy
+data/mnist_y.npy
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

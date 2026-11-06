@@ -1,0 +1,37 @@
+{
+  "nome": "digit-mlp-classifier",
+  "versao": "1.0.0",
+  "algoritmo": "MLPClassifier",
+  "arquitetura": "784 → 128 → 64 → 10 (ReLU, softmax)",
+  "hiperparametros": {
+    "hidden_layer_sizes": [
+      128,
+      64
+    ],
+    "learning_rate_init": 0.001,
+    "batch_size": 32,
+    "early_stopping": true,
+    "epocas_treinadas": 24
+  },
+  "limiar_confianca": 0.9,
+  "treinado_em": "2026-11-06T14:53:48Z",
+  "scikit_learn": "1.9.1",
+  "base_de_dados": "MNIST (OpenML mnist_784)",
+  "amostras": {
+    "treino": 49000,
+    "validacao": 7000,
+    "teste": 14000
+  },
+  "metricas_teste": {
+    "acuracia": 0.9775,
+    "precisao_macro": 0.9774,
+    "recall_macro": 0.9772,
+    "f1_macro": 0.9773,
+    "f1_ponderado": 0.9775,
+    "roc_auc_ovr": 0.9994
+  },
+  "imagens_proprias": {
+    "acertos": 9,
+    "total": 10
+  }
+}
